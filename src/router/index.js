@@ -19,6 +19,21 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
+  {
+      path: '/menu',
+      name: 'menu',
+      component: () => import('../views/Menu.vue')
+  },
+  {
+      path: '/sign-in',
+      name: 'signin',
+      component: () => import('../views/Signin.vue')
+  },
+  {
+      path: '/join',
+      name: 'join',
+      component: () => import('../views/Join.vue')
+  },
 ];
 
 const router = new VueRouter({
