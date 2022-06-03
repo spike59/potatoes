@@ -31,7 +31,9 @@
 
       <v-spacer class="hidden-sm-and-down"></v-spacer>
       <v-btn text class="hidden-sm-and-down" to="/sign-in">SIGN IN</v-btn>
-      <v-btn color="brown lighten-3" class="hidden-sm-and-down" to="/join">JOIN</v-btn>
+      <v-btn color="brown lighten-3" class="hidden-sm-and-down" to="/join"
+        >JOIN</v-btn
+      >
     </v-app-bar>
   </span>
 </template>

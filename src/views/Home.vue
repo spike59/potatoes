@@ -1,8 +1,8 @@
 <template>
   <span>
-    <HomeHero/>
-    <HomeDetails/>
-    <HomePlans/>
+    <HomeHero />
+    <HomeDetails />
+    <HomePlans />
   </span>
 </template>
 
@@ -17,7 +17,7 @@ export default {
   components: {
     HomeHero,
     HomeDetails,
-    HomePlans
-},
+    HomePlans,
+  },
 };
 </script>
